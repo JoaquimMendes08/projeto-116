@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Senna</title>
+    </head>
+    <body>
+        <h2>Marca: {{nome}}</h2>
+        <h2>Modelo: {{idade}}</h2>
+        <h2>Velocidade maxima: {{velocidade}}</h2>
+
+        <!--Escreva o link correto para a fonte da imagem no lugar de #. As imagens estão armazenadas na
+            pasta static. Se você não gostar dessas imagens, você pode usar as suas próprias imagens-->
+            <img src = "{{url_for('static', filename='senna.jpg')}}" width="600" height="300"/>
+    </body>
+</html>
